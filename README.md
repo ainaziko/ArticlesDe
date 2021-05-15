@@ -26,7 +26,7 @@ mobile   : +996706424748;
 After user starts the game, word without article appears. There are three buttons for choosing the variant of answer. After  tapping one of the button, the hidden article, word, plural form and meaning of the word appear on the screen. If user chooses the correct one, the article shows up in green color and progress bars indicator increases(by 0.001 out of 1), if not the color will be red and progress burs indicator doesn't change. Than next button appears. After tapping it there the word changes randomly (the program reads all the words from file derdiedas.txt and gives a random word). All this process repeats untill the progress bar is full. By that time user will have learned a lot. More info: https://github.com/ainazimo/Article_Trainer/wiki
 
 ### Used Data Structure concept
-I used queues. If user answers incorrect, the test case will be enqueued. When the user makes 2 mistakes, these cases appear one my one as next in main as a question and will be dequeued, so it is convinient to repeat weak known combinations of a noun and article.
+I used queues. If user answers incorrect, the test case will be enqueued. When the user makes 2 mistakes, these cases appear one by one as next in main as a question and will be dequeued, so it is convinient to repeat weak known combinations of a noun and article.
 
 
 # Project proposal
